@@ -1,5 +1,5 @@
 {
-    "name": "MongoDBCustomProperties",
+    "name": "DynamoDBCustomProperties",
     "version": "0.1.2",
     "versionDate": "2017-07-15",
     "author": "hackolade",
@@ -9,9 +9,9 @@
     },
     "contributes": {
         "additionalProperties": {
-            "target": "MONGODB"
+            "target": "DYNAMODB"
         }
     },
-    "description": "Hackolade plugin for MongoDB models to allow custom properties",
+    "description": "Hackolade plugin for DynamoDB models to allow custom properties",
     "disabled": false
 }
