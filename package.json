@@ -12,6 +12,5 @@
             "target": "DYNAMODB"
         }
     },
-    "description": "Hackolade plugin for DynamoDB models to allow custom properties",
-    "disabled": false
+    "description": "Hackolade plugin for DynamoDB models to allow custom properties"
 }
