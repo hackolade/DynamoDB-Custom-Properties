@@ -56,6 +56,25 @@ making sure that you maintain a proper JSON format.
 	"lowerTab": "JsonDetails",
 	"structure": {
 		"string": [
+			{
+				"propertyName": "Privacy-concerned",
+				"propertyKeyword": "privacyConcerned",
+				"shouldValidate": false,
+				"propertyType": "checkbox"
+			},
+			{
+				"propertyName": "GDPR classification",
+				"propertyKeyword": "GDPRClass",
+				"shouldValidate": false,
+				"propertyTooltip": "Select GDPR privacy classification",
+				"propertyType": "select",
+				"options": [
+					"Public",
+					"Sensitive",
+					"Confidential",
+					"Internal"
+				]
+			}
 		]
 	}
 }
