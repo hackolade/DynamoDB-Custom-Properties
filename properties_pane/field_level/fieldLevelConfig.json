@@ -76,6 +76,28 @@ making sure that you maintain a proper JSON format.
 					"Internal"
 				]
 			}
+		],
+		"number": [
+			{
+				"propertyName": "Privacy-concerned",
+				"propertyKeyword": "privacyConcerned",
+				"shouldValidate": false,
+				"propertyType": "checkbox"
+			}
+		],
+		"boolean": [
+		],
+		"map": [
+		],
+		"list": [
+		],
+		"null": [
+		],
+		"stringSet": [
+		],
+		"numberSet": [
+		],
+		"binarySet": [
 		]
 	}
 }
